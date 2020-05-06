@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mattl\\source\\repos\\Leave-Management\\Leave-Management\\Leave-Management.csproj": {}
+    "C:\\Users\\Matt.Leach\\Documents\\ASP.NET\\LeaveManagement\\Leave-Management.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mattl\\source\\repos\\Leave-Management\\Leave-Management\\Leave-Management.csproj": {
+    "C:\\Users\\Matt.Leach\\Documents\\ASP.NET\\LeaveManagement\\Leave-Management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mattl\\source\\repos\\Leave-Management\\Leave-Management\\Leave-Management.csproj",
+        "projectUniqueName": "C:\\Users\\Matt.Leach\\Documents\\ASP.NET\\LeaveManagement\\Leave-Management.csproj",
         "projectName": "Leave-Management",
-        "projectPath": "C:\\Users\\mattl\\source\\repos\\Leave-Management\\Leave-Management\\Leave-Management.csproj",
-        "packagesPath": "C:\\Users\\mattl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mattl\\source\\repos\\Leave-Management\\Leave-Management\\obj\\",
+        "projectPath": "C:\\Users\\Matt.Leach\\Documents\\ASP.NET\\LeaveManagement\\Leave-Management.csproj",
+        "packagesPath": "C:\\Users\\Matt.Leach\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matt.Leach\\Documents\\ASP.NET\\LeaveManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mattl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Matt.Leach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +43,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.2, )"
@@ -80,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

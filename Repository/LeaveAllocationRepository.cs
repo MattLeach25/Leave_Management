@@ -15,19 +15,23 @@ namespace Leave_Management.Repository
         {
             _db = db;
         }
-        public bool create(LeaveAllocation entity)
+
+
+        public bool Create(LeaveAllocation entity)
         {
-            throw new NotImplementedException();
+            _db.LeaveAllocations.Add(entity);
+            return Save();
         }
 
         public bool Delete(LeaveAllocation entity)
         {
-            throw new NotImplementedException();
+            _db.LeaveAllocations.Remove(entity);
+            return Save();
         }
 
         public ICollection<LeaveAllocation> FindAll()
         {
-            throw new NotImplementedException();
+            return _db.LeaveAllocations.ToList();
         }
 
         public LeaveAllocation FindById(int id)
@@ -37,12 +41,14 @@ namespace Leave_Management.Repository
 
         public bool Save()
         {
-            throw new NotImplementedException();
+            var changes = _db.SaveChanges();
+            return changes > 0;
         }
 
         public bool Update(LeaveAllocation entity)
         {
-            throw new NotImplementedException();
+            _db.LeaveAllocations.Update(entity);
+            return Save();
         }
     }
 }
