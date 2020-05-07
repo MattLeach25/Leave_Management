@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Matt.Leach\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Matt.Leach\\.nuget\\packages",
+      "C:\\Users\\mattl\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\mattl\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
