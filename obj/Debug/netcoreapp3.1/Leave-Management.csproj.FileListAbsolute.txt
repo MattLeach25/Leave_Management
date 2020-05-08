@@ -316,3 +316,7 @@ C:\Users\mattl\source\repos\Leave-Management\Leave-Management\bin\Debug\netcorea
 C:\Users\mattl\source\repos\Leave-Management\Leave-Management\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\mattl\source\repos\Leave-Management\Leave-Management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveTypes\Index.cshtml.g.cs
 C:\Users\mattl\source\repos\Leave-Management\Leave-Management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveTypes\Create.cshtml.g.cs
+C:\Users\mattl\source\repos\Leave-Management\Leave-Management\obj\Debug\netcoreapp3.1\Leave-Management.csprojAssemblyReference.cache
+C:\Users\mattl\source\repos\Leave-Management\Leave-Management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveTypes\Edit.cshtml.g.cs
+C:\Users\mattl\source\repos\Leave-Management\Leave-Management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveTypes\Details.cshtml.g.cs
+C:\Users\mattl\source\repos\Leave-Management\Leave-Management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveTypes\Delete.cshtml.g.cs
